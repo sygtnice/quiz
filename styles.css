@@ -1,0 +1,47 @@
+/* Styles for desktop */
+#quiz {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for mobile */
+  @media (max-width: 480px) {
+    #quiz {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+    
+    /* Additional styles for buttons */
+    .button {
+      font-size: 18px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #game-canvas {
+      width: 100%;
+      height: auto;
+    }
+  
+    .button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .question {
+      font-size: 24px;
+    }
+  
+    .choice {
+      font-size: 20px;
+    }
+  
+    .score {
+      font-size: 16px;
+    }
+  }
+  
